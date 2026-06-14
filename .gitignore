@@ -1,0 +1,31 @@
+# Local, machine-specific Claude Code overrides — never published
+.claude/settings.local.json
+.claude/**/settings.local.json
+CLAUDE.local.md
+.claude/CLAUDE.local.md
+
+# Git-ignored agent memory scope ("local" memory)
+.claude/agent-memory-local/
+
+# Auto-managed Claude Code state (never hand-edited, never shared)
+.claude.json
+.claude.json.backup
+
+# Logs and scratch
+*.log
+session-costs.log
+*.tmp
+_diagram-check.png
+
+# Node (dispatch.mjs runs on the bundled Node; no dependencies are committed)
+node_modules/
+npm-debug.log*
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+*~
+*.swp
+.vscode/
+.idea/
